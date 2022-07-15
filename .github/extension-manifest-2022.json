@@ -9,8 +9,8 @@
 		"build"
 	],
 	"identity": {
-		"internalName": "Ansible",
-		"displayName": "Ansible",
+		"internalName": "Kamailio",
+		"displayName": "Kamailio",
 		"tags": [
 			"analyzer"
 		]
