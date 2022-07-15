@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{ADB82ED7-667E-4C8F-A914-CC5AD1EDF99D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0BE7CE8C-DD2A-41FC-B918-28B06156FB53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{44383370-DF6A-4EDA-8ADC-FA5457FDAB75}"
+	ProjectSection(SolutionItems) = preProject
+		.github\extension-manifest-2022.json = .github\extension-manifest-2022.json
+		.github\release-drafter.yml = .github\release-drafter.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{A31DC4FC-38C5-4794-B6BC-62D34EB0D645}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\main.yml = .github\workflows\main.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamailio.VisualStudio", "Source\Kamailio.VisualStudio\Kamailio.VisualStudio.csproj", "{A5CCD8A8-8EAC-4410-929B-A9821ED4C5F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5CCD8A8-8EAC-4410-929B-A9821ED4C5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CCD8A8-8EAC-4410-929B-A9821ED4C5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CCD8A8-8EAC-4410-929B-A9821ED4C5F9}.Debug|x86.ActiveCfg = Debug|x86
+		{A5CCD8A8-8EAC-4410-929B-A9821ED4C5F9}.Debug|x86.Build.0 = Debug|x86
+		{A5CCD8A8-8EAC-4410-929B-A9821ED4C5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CCD8A8-8EAC-4410-929B-A9821ED4C5F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5CCD8A8-8EAC-4410-929B-A9821ED4C5F9}.Release|x86.ActiveCfg = Release|x86
+		{A5CCD8A8-8EAC-4410-929B-A9821ED4C5F9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A31DC4FC-38C5-4794-B6BC-62D34EB0D645} = {44383370-DF6A-4EDA-8ADC-FA5457FDAB75}
+		{A5CCD8A8-8EAC-4410-929B-A9821ED4C5F9} = {ADB82ED7-667E-4C8F-A914-CC5AD1EDF99D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF4C528C-EAD9-4CA3-98F5-65D9CF4441D9}
+	EndGlobalSection
+EndGlobal
