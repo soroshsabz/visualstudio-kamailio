@@ -7,6 +7,9 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "kamailio",
+	"fileTypes": [
+		".cfg"
+	],
 	"firstLineMatch": "\\b(KAMAILIO|kamailio|SER|ser|SIP-ROUTER|sip-router|OPENSER|openser)\\b",
 	"foldingStartMarker": "(?x)/\\*\\*(?!\\*)|^(?![^{]*?//|[^{]*?/\\*(?!.*?\\*/.*?\\{)).*?\\{\\s*($|//|/\\*(?!.*?\\*/.*\\S))",
 	"foldingStopMarker": "(?<!\\*)\\*\\*/|^\\s*\\}",
