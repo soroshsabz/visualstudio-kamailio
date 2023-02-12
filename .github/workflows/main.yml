@@ -23,7 +23,7 @@ jobs:
     strategy:
       matrix:
         include: 
-          - solution: Ansible.VisualStudio.sln
+          - solution: Kamailio.VisualStudio.sln
             os: windows-2022
             artifact: VS2022
 

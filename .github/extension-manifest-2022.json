@@ -1,9 +1,9 @@
-{
-	/*
-	 * ITNOA
-	 * Based on https://github.com/flcdrg/VsShowMissing
-	 */
+/*
+ * ITNOA
+ * Based on https://github.com/flcdrg/VsShowMissing
+ */
 
+{
 	"$schema": "http://json.schemastore.org/vsix-publish",
 	"categories": [
 		"build"
@@ -20,5 +20,5 @@
 	"publisher": "Seyyed Soroosh Hosseinalipour",
 	"private": false,
 	"qna": false,
-	"repo": "https://github.com/soroshsabz/visualstudio-ansible"
+	"repo": "https://github.com/soroshsabz/visualstudio-kamailio"
 }
