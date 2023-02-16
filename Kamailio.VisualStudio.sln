@@ -6,9 +6,15 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{ADB82ED7-667E-4C8F-A914-CC5AD1EDF99D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0BE7CE8C-DD2A-41FC-B918-28B06156FB53}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.txt = CHANGELOG.txt
+		kamailio-logo-2015-140x64.png = kamailio-logo-2015-140x64.png
+		LICENSE.txt = LICENSE.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{44383370-DF6A-4EDA-8ADC-FA5457FDAB75}"
 	ProjectSection(SolutionItems) = preProject
+		dependabot.yml = dependabot.yml
 		.github\extension-manifest-2022.json = .github\extension-manifest-2022.json
 		.github\release-drafter.yml = .github\release-drafter.yml
 	EndProjectSection

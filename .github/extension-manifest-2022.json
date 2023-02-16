@@ -6,13 +6,17 @@
 {
 	"$schema": "http://json.schemastore.org/vsix-publish",
 	"categories": [
-		"build"
+		"tools",
+		"coding",
+		"programming languages"
 	],
 	"identity": {
 		"internalName": "Kamailio",
 		"displayName": "Kamailio",
 		"tags": [
-			"analyzer"
+			"analyzer",
+			"kamailio",
+			"DSL"
 		]
 	},
 	"overview": "README.md",

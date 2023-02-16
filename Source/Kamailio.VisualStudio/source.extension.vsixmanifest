@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Kamailio.VisualStudio.fc0226c8-68aa-4670-a938-2614d3c2a92a" Version="1.0" Language="en-US" Publisher="Seyyed Soroosh Hosseinalipour" />
+        <Identity Id="Kamailio.VisualStudio.fc0226c8-68aa-4670-a938-2614d3c2a92a" Version="1.1" Language="en-US" Publisher="Seyyed Soroosh Hosseinalipour" />
         <DisplayName>Kamailio.VisualStudio</DisplayName>
-        <Description>Empty VSIX Project.</Description>
+        <Description xml:space="preserve">Kamailio Visual Studio Extension based on https://github.com/miconda/vscode-kamailio-syntax</Description>
+        <MoreInfo>https://github.com/soroshsabz/visualstudio-kamailio</MoreInfo>
+        <License>LICENSE.txt</License>
+        <ReleaseNotes>CHANGELOG.txt</ReleaseNotes>
+        <Icon>kamailio-logo-2015-140x64.png</Icon>
+        <PreviewImage>kamailio-logo-2015-140x64.png</PreviewImage>
+        <Tags>visual-studio;vscode-extension;kamailio;analyzer</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
