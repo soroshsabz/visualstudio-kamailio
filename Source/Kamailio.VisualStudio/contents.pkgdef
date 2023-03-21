@@ -10,3 +10,6 @@
 ; Add an icon for each file extension supported by the .tmLanguage grammar file
 [$RootKey$\ShellFileAssociations\.cfg]
 "DefaultIconMoniker"="c37d4d18-42d4-4daa-b86b-e009124278f1:0"
+
+[$RootKey$\TextMate\LanguageConfiguration\GrammarMapping]
+"source.env"="$PackageFolder$\language-configuration.json"
