@@ -1,2 +1,12 @@
+; ITNOA
+;
+; Registers the language grammar files with Visual Studio
 [$RootKey$\TextMate\Repositories]
 "kamailio"="$PackageFolder$\Grammars"
+
+; Associate icons with file extensions in Solution Explorer
+; Find more icons at http://glyphlist.azurewebsites.net/knownmonikers/
+; Find specific custom icons at Monikers.imagemanifest
+; Add an icon for each file extension supported by the .tmLanguage grammar file
+[$RootKey$\ShellFileAssociations\.cfg]
+"DefaultIconMoniker"="c37d4d18-42d4-4daa-b86b-e009124278f1:0"

@@ -25,6 +25,7 @@ namespace Kamailio.VisualStudio
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [Guid(KamailioPackage.PackageGuidString)]
+    [ProvideBindingPath()]
     public sealed class KamailioPackage : AsyncPackage
     {
         /// <summary>

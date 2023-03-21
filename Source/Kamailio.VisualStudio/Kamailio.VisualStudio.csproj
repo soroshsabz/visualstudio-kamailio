@@ -51,8 +51,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\..\CHANGELOG.txt">
-      <Link>CHANGELOG.txt</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Link>Resources\CHANGELOG.txt</Link>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="..\..\Icon.png">
+      <Link>Resources\Icon.png</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="..\..\kamailio-logo-2015-140x64.png">
@@ -61,8 +64,11 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="..\..\LICENSE.txt">
-      <Link>LICENSE.txt</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Link>Resources\LICENSE.txt</Link>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="..\..\README.txt">
+      <Link>Resources\README.txt</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="contents.pkgdef">
@@ -70,6 +76,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Grammars\kamailio.tmLanguage.json">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Resource Include="Icons\kamailio.png" />
+    <Content Include="..\..\LICENSE">
+      <Link>Resources\LICENSE</Link>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Monikers.imagemanifest">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
