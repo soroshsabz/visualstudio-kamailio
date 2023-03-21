@@ -7,9 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{ADB82E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0BE7CE8C-DD2A-41FC-B918-28B06156FB53}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		CHANGELOG.txt = CHANGELOG.txt
 		kamailio-logo-2015-140x64.png = kamailio-logo-2015-140x64.png
 		LICENSE.txt = LICENSE.txt
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{44383370-DF6A-4EDA-8ADC-FA5457FDAB75}"
@@ -25,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamailio.VisualStudio", "Source\Kamailio.VisualStudio\Kamailio.VisualStudio.csproj", "{A5CCD8A8-8EAC-4410-929B-A9821ED4C5F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{148AF5DA-CF42-4E31-9DFB-F1870EEA28FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
