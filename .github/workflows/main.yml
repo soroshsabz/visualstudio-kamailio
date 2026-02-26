@@ -68,7 +68,7 @@ jobs:
         echo "::set-output name=GitBuildVersion::$($env:GitBuildVersion)"
         echo "::set-output name=GitBuildVersionSimple::$($env:GitBuildVersionSimple)"
     - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v6
+      uses: actions/upload-artifact@v7
       with:
         # Artifact name
         name: ${{ matrix.artifact }}
